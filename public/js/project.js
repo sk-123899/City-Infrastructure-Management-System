@@ -191,7 +191,7 @@ var letters = /^[A-Za-z]+$/;
 if(url.value.match(letters))
 {
 alert('form Sucesfully submitted');
-window.location.href="dashboard.html";
+window.location.href={{route('statusnew')}};
 return true;
 }
 else

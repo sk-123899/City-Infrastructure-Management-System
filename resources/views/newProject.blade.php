@@ -2,7 +2,7 @@
     <head>
         <title>Project</title>
     </head>
-    <script src="./js/project.js"></script>
+    <!-- <script src="./js/project.js"></script> -->
 
     <link rel="stylesheet" href="./css/newProject.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -25,13 +25,13 @@
                             <a class="dropdown-item" href={{route('to_develop')}}>To be Developed</a>
                         </div>
                 </li>
+                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
   
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
             </ul>
 
             <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQ's</a></li>
+                <li class="nav-item"><a href={{route('user_status')}} class="nav-link">Status</a></li>
+                <li class="nav-item"><a href={{route('about_us')}} class="nav-link">About Us</a></li>
                 <a href='/logout'><button class="btn btn-info my-2 my-sm-0" type="submit">Log Out</button></a>
                 
             </ul>
@@ -41,10 +41,11 @@
         <div class="project">
                 <h1>Project Details</h1>
             <!-- <div id="error"></div> -->
-            <form name = 'pjform' action="dashboard.html">
-                
-                <label for="fname"  class="project-label" >First Name:</label>
-                <input id ="fname", type="text",name="fname" class="project-input"placeholder = "Enter First Name">
+            <form name = 'pjform' action={{route('statusnew')}} method="POST">
+                @csrf
+
+                <label for="fname" class="project-label">First Name:</label>
+                <input id ="fname", type="text", name="fname"placeholder = "Enter First Name" class="project-input">  
                 <label for="lname" class="project-label">Last Name:</label>
                 <input id ="lname", type="text", name="lname"placeholder = "Enter Last Name" class="project-input">  
                 <label for="city" class="project-label">City:</label>
@@ -55,27 +56,27 @@
                 <div class="radio">
                     <label for="region"class="project-label" >Region:</label>
                     
-                    <input id ="region",  type="radio", name="rregion"class="radio-input">
+                    <input id ="region",  type="radio" value="Resedential" name="region"class="radio-input">
                     <label for="region"class="radio-label"  >Resedential</label> 
 
-                    <input id ="region", type="radio", name="nregion" class="radio-input">
+                    <input id ="region", type="radio" value="Non-Resedential" name="region" class="radio-input">
                     <label for="region", class="radio-label" >Non-Resedential</label>   
                 </div>
                 <div class="checkbox">
                         <label for="purpose" class="project-label">Project:</label>
-                        <input id ="purpose", type="checkbox", name="purpose1" class="checkbox-input">
+                        <input id ="purpose", type="checkbox" value="House" name="purpose" class="checkbox-input">
                         <label for="purpose" class="checkbox-label">House</label> 
-                        <input id ="purpose", type="checkbox", name="purpose2" class="checkbox-input">
+                        <input id ="purpose", type="checkbox" value="Appartment" name="purpose" class="checkbox-input">
                         <label for="purpose"class="checkbox-label">Appartment</label> 
-                        <input id ="purpose", type="checkbox", name="purpose3" class="checkbox-input" >
+                        <input id ="purpose", type="checkbox" value="Restaurant" name="purpose" class="checkbox-input" >
                         <label for="purpose"class="checkbox-label">Restaurant</label> 
-                        <input id ="purpose", type="checkbox", name="purpose4"  class="checkbox-input">
+                        <input id ="purpose", type="checkbox" value="Hotel" name="purpose"  class="checkbox-input">
                         <label for="purpose"class="checkbox-label">Hotel</label> 
-                        <input id ="purpose", type="checkbox", name="purpose5"  class="checkbox-input">
+                        <input id ="purpose", type="checkbox" value="Company" name="purpose"  class="checkbox-input">
                         <label for="purpose"class="checkbox-label">Company</label> 
-                        <input id ="purpose", type="checkbox", name="purpose6" class="checkbox-input" >
+                        <input id ="purpose", type="checkbox" value="Shop"  name="purpose" class="checkbox-input" >
                         <label for="purpose"class="checkbox-label">Shop</label> 
-                        <input id ="purpose", type="checkbox", name="purpose7"  class="checkbox-input">
+                        <input id ="purpose", type="checkbox" value="Other" name="purpose"  class="checkbox-input">
                         <label for="purpose"class="checkbox-label">Other</label>    
                 </div>
                 <label for="other"class="project-label">Other Project:</label>
@@ -89,10 +90,10 @@
                 <input id ="mob", type="tel", name="mob" placeholder = "Enter Mobile Number" class="project-input"> 
                 
                 <label for="url"class="project-label">Address Proof (Aadhar/Pan/License):</label>
-                <input id ="url", type="text", name="url" placeholder = "Only Enter G-Drive Link" class="project-input"> 
+                <input id ="url", type="text", name="file" placeholder = "Only Enter G-Drive Link" class="project-input"> 
                 
                 <button type="button" class="back-button" onclick="document.location='dashboard.html'">Back</button>
-                <button type="button" onclick="formValidation()" class="project-button">Submit</button>
+                <button type="submit" class="project-button">Submit</button>
              
             </form>
     </body>

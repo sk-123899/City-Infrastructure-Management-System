@@ -32,7 +32,7 @@
             <th scope="col">Other_Type</th>
             <th scope="col">Area</th>
             <th scope="col">Contact</th>
-            <th scope="col">Proof</th>
+            <th scope="col">Address Proof</th>
             <th scope="col">Status</th>
             <th></th>
           </tr>

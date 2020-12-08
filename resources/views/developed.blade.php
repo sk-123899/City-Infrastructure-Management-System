@@ -26,13 +26,13 @@
                             <a class="dropdown-item" href={{route('to_develop')}}>To be Developed</a>
                         </div>
                 </li>
+                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
   
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
             </ul>
 
             <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQ's</a></li>
+                <li class="nav-item"><a href={{route('user_status')}} class="nav-link">Status</a></li>
+                <li class="nav-item"><a href={{route('about_us')}} class="nav-link">About Us</a></li>
                 <a href='/logout'><button class="btn btn-info my-2 my-sm-0" type="submit">Log Out</button></a>
                 
             </ul>

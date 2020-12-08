@@ -1,5 +1,6 @@
 <html>
     <head>
+    <title>Status</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/user_status.css">
     </head>
@@ -21,13 +22,13 @@
                             <a class="dropdown-item" href={{route('to_develop')}}>To be Developed</a>
                         </div>
                 </li>
+                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
   
-                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
             </ul>
 
             <ul class="navbar-nav ml-auto ">
-                <li class="nav-item"><a href={{route('contacts')}} class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQ's</a></li>
+                <li class="nav-item"><a href={{route('user_status')}} class="nav-link">Status</a></li>
+                <li class="nav-item"><a href={{route('about_us')}} class="nav-link">About Us</a></li>
                 <a href='/logout'><button class="btn btn-info my-2 my-sm-0" type="submit">Log Out</button></a>
                 
             </ul>
@@ -90,7 +91,7 @@
             <th scope="col">Location</th>
             <th scope="col">PinCode</th>
             <th scope="col">Details</th>
-            <th scope="col">Reason</th>
+            <th scope="col">Replied</th>
             <th scope="col">Status</th>
         
           </tr>

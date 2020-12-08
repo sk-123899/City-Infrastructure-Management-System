@@ -95,11 +95,19 @@ Route::get('/ghome', function () {
 //     return view('user_status');
 // })->name('user_status')->middleware('verified');
 
+Route::get('/about_us', function () {
+    return view('about_us');
+})->name('about_us')->middleware('verified');
+    
+Route::get('/faq', function () {
+    return view('faq');
+})->name('faq')->middleware('verified');
+    
 Route::post('/status','Regcontroller@index');
 
-Route::post('/statusnew','Regcontroller@project');
+Route::post('/statusnew','Regcontroller@project')->name('statusnew');
 
-Route::post('/newghome','Regcontroller@ghome');
+Route::post('/newghome','Regcontroller@ghome')->name('newghome');
 
 use App\Mail\WelcomeMail;
 use Illuminate\Support\Facades\Mail;

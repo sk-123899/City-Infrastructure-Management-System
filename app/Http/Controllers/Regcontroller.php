@@ -39,7 +39,7 @@ class Regcontroller extends Controller
     public function ghome(Request $request){
         $grievance = $request->grievance;
         $ward = $request->ward;
-        $landmark = $request->lmark;
+        $landmark = $request->Lmark;
         $location = $request->Loc;
         $pincode = $request->Pin;
         $details = $request->Gdetail;
