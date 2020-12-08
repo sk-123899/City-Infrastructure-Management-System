@@ -12,10 +12,12 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-image:url('./images/backgroundImg.jpg');
+                background-size:cover;
+                background-color: #ffed4a;
+                color: #ffffff;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-weight: 600;
                 height: 100vh;
                 margin: 0;
             }
@@ -49,10 +51,9 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #ffffff;
                 padding: 0 25px;
                 font-size: 13px;
-                font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
@@ -64,7 +65,7 @@
         </style>
     </head>
     <body>
-        
+        <div class="bg-warning">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -85,6 +86,7 @@
                     City Infrastructure Management System
                 </div>
             </div>
+        </div>
         </div>
     </body>
 </html>
