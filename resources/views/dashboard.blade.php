@@ -44,13 +44,13 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
                   <div class="carousel-item active">
-                    <a class="slider-img" href="Project.html"><img class="d-block w-100 img-fluid" src="./images/carousel_1.jpg"></a> 
+                    <a class="slider-img" href={{route('new-project')}}><img class="d-block w-100 img-fluid" src="./images/carousel_1.jpg"></a> 
                     <div class="carousel-caption">
                     <h3>Add Project</h3>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <a class="slider-img" href="ghome.html"><img class="d-block w-100 img-fluid" src="./images/carousel_2.jpg"></a> 
+                    <a class="slider-img" href={{route('ghome')}}><img class="d-block w-100 img-fluid" src="./images/carousel_2.jpg"></a> 
                     <div class="carousel-caption">
                     <h3 style="color:#343a40;">Add Grievance</h3>
                     </div>
