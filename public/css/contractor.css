@@ -1,0 +1,71 @@
+.contract> h1{
+    padding-left: 8%;
+}
+
+.contract{
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 20px;
+    padding-left: 50px;
+    border: 1px solid black;
+    width: 40%;
+    left: 28%;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #00dbde9e, #fc00ff7a);
+}
+
+.contract-label{
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+}
+.contract-input{
+    display: block;
+    margin-top: 7px;
+    width: 80%;
+    height: 35px;
+    border: 1px solid #00000059;
+    border-radius: 3px;
+    background: #ccc4c421;
+}
+.address-input{
+    margin-top: 10px;
+}
+
+.profile{
+    cursor: pointer;
+    width:25%;
+    height:20%;
+    margin-left: 10%;
+}
+.profile> b{
+    margin-left: 50%;
+}
+.contract> button{
+    text-align: center;
+    margin-top: 14px;
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    padding-left: 6px;
+    padding-top: 0px;
+    border: none;
+}
+
+.contract-button{
+    margin-left: 5%;
+    background: #3e3effd4;
+    border-radius: 8px;
+    width: 20%;
+    
+}
+
+.back-button{
+        margin-left: 45%;
+        border-radius: 8px;
+        width: 20%;
+        background: #f93825d1;
+}
+

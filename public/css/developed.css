@@ -1,0 +1,15 @@
+.heading{
+    text-align:center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: green;   
+}
+
+.develop-project{
+    margin-left:10%; 
+    margin-right:10%;
+}
+
+.card-img-top{
+    height: 50%;
+}
