@@ -41,6 +41,7 @@
         <thead class="bg-info text-white">
           <tr>
             <th scope="col">id</th>
+            <th scope="col">name</th>
             <th scope="col">City</th>
             <th scope="col">State</th>
             <th scope="col">Region</th>
@@ -111,7 +112,7 @@
             @if($status_g[$i] == 1)
             <td class="text-success">Solved</td>
             @elseif($status_g[$i] == 2)
-            <td class="text-success">Answered</td>
+            <td class="text-success">Commented</td>
             @else
             <td class="text-primary">Pending...</td>
             @endif
