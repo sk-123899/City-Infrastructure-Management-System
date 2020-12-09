@@ -14,7 +14,6 @@
             html, body {
                 background-image:url('./images/backgroundImg.jpg');
                 background-size:cover;
-                background-color: #ffed4a;
                 color: #ffffff;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 600;

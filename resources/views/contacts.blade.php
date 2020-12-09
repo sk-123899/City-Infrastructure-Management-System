@@ -82,7 +82,7 @@
             </div>
 
             <div class="card">
-                    <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="./images/Contacts/img6.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h5 class="card-title">Railway Enquiry</h5>
                       <p class="card-text">139</p>
@@ -99,7 +99,7 @@
 
             <div class="card-deck" >
                     <div class="card">
-                      <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg"  alt="Card image cap">
+                      <img class="card-img-top" src="./images/Contacts/img7.jpg"  alt="Card image cap">
                       <div class="card-body">
                         <h5 class="card-title">Kisan Call Centre</h5>
                         <p class="card-text">1551</p>
@@ -107,7 +107,7 @@
                     </div>
         
                     <div class="card">
-                            <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./images/Contacts/img8.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Anti Poisson</h5>
                               <p class="card-text">1066</p>
@@ -115,7 +115,7 @@
                     </div>
               
                     <div class="card">
-                            <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./images/Contacts/img9.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">LPG Leak Helpline</h5>
                               <p class="card-text">1906</p>
@@ -123,14 +123,14 @@
                     </div>
         
                     <div class="card">
-                            <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./images/Contacts/img10.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Senior Citizen Helpline</h5>
                               <p class="card-text">1091 , 1291</p>
                             </div>
                     </div>
                     <div class="card">
-                            <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./images/Contacts/img11.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Road Accident Emergency</h5>
                               <p class="card-text">1073</p>
@@ -138,7 +138,7 @@
                     </div>
         
                     <div class="card">
-                            <img class="card-img-top" src="./images/Developed_Images/dev_1.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./images/Contacts/img12.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Muncipal Corporation</h5>
                               <p class="card-text">1088</p>

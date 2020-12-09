@@ -14,6 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 Auth::routes(['verify' => true]);
 
+use App\Mail\WelcomeMail;
+use Illuminate\Support\Facades\Mail;
+
+Route::get('/email', function () {
+    Mail::to('2018.shreyas.kotkar@ves.ac.in')->send(new WelcomeMail());
+    return new WelcomeMail();
+});
+
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -109,13 +118,6 @@ Route::post('/statusnew','Regcontroller@project')->name('statusnew');
 
 Route::post('/newghome','Regcontroller@ghome')->name('newghome');
 
-use App\Mail\WelcomeMail;
-use Illuminate\Support\Facades\Mail;
-
-Route::get('/email', function () {
-    Mail::to('2018.shreyas.kotkar@ves.ac.in')->send(new WelcomeMail());
-    return new WelcomeMail();
-});
 
 Auth::routes();
 

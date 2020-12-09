@@ -1,10 +1,9 @@
 @component('mail::message')
-# Introduction
+# Hello from CIMS
 
-The body of your message.
-
-@component('mail::button', ['url' => ''])
-Button Text
+Welcome to our Application 
+@component('mail::button', ['url' => 'dashboard'])
+Verify Email
 @endcomponent
 
 Thanks,<br>
