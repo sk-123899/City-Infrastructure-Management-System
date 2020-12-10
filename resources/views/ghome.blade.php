@@ -1,4 +1,3 @@
-
 <html>
 <head>
 	<title>Grievance Form</title>
@@ -110,7 +109,7 @@
 
                   <div class="project-divs">
                     <label for="Gdetail">Grievance Details:</label>
-                    <input type="text" placeholder="Enter Grievance Details" id="Gdetail" name="Gdetail" require>
+                    <input type="text" placeholder="Enter Grievance Details" id="Gdetail" name="Gdetail" required>
                   </div>  
 
                   <div class="my-submit-button-div">

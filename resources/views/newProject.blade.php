@@ -45,13 +45,13 @@
                 @csrf
 
                 <label for="fname" class="project-label">First Name:</label>
-                <input id ="fname", type="text", name="fname"placeholder = "Enter First Name" class="project-input">  
+                <input id ="fname", type="text", name="fname"placeholder = "Enter First Name" class="project-input" required>  
                 <label for="lname" class="project-label">Last Name:</label>
-                <input id ="lname", type="text", name="lname"placeholder = "Enter Last Name" class="project-input">  
+                <input id ="lname", type="text", name="lname"placeholder = "Enter Last Name" class="project-input" required>  
                 <label for="city" class="project-label">City:</label>
-                <input id ="city", type="text", name="city"placeholder = "Enter City" class="project-input">  
+                <input id ="city", type="text", name="city"placeholder = "Enter City" class="project-input" required>  
                 <label for="state" class="project-label">State:</label>
-                <input id ="state", type="text", name="state"placeholder = "Enter State"  class="project-input">  
+                <input id ="state", type="text", name="state"placeholder = "Enter State"  class="project-input" required>  
                 
                 <div class="radio">
                     <label for="region"class="project-label" >Region:</label>
@@ -83,14 +83,14 @@
                 <input id ="other", type="text", name="other"placeholder = "Enter Other Project-Ideas" class="project-input" >  
                 
                 <label for="area"class="project-label">Area (sq.ft):</label>
-                <input id ="area", type="tel", name="area" placeholder = "Enter Area (sq.ft)" class="project-input" >  
+                <input id ="area", type="tel", name="area" placeholder = "Enter Area (sq.ft)" class="project-input" required>  
 
 
                 <label for="mob"class="project-label">Contact Number:</label>
-                <input id ="mob", type="tel", name="mob" placeholder = "Enter Mobile Number" class="project-input"> 
+                <input id ="mob", type="tel", name="mob" placeholder = "Enter Mobile Number" class="project-input" required> 
                 
                 <label for="url"class="project-label">Address Proof (Aadhar/Pan/License):</label>
-                <input id ="url", type="text", name="file" placeholder = "Only Enter G-Drive Link" class="project-input"> 
+                <input id ="url", type="text", name="file" placeholder = "Only Enter G-Drive Link" class="project-input" required> 
                 
                 <button type="button" class="back-button" onclick="document.location='dashboard.html'">Back</button>
                 <button type="submit" class="project-button">Submit</button>
